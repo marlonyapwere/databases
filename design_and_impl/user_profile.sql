@@ -6,4 +6,3 @@ CREATE TABLE IF NOT EXISTS user_profile (
     gender TEXT CHECK(gender IN ('MALE', 'FEMALE')) NOT NULL,
     created_at TIMESTAMP WITHOUT TIME ZONE NOT NULL
 );
-

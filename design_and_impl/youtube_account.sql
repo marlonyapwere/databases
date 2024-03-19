@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS youtube_account (
+    id BIGINT PRIMARY KEY REFERENCES user_profile(id),
+    created_at TIMESTAMP WITHOUT TIME ZONE NOT NULL
+);
